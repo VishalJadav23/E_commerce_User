@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.bg-grey {
+  background-color: #eae8e8;
+}
+
+@media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}
+
+
+form#userForm {
+  border: 2px solid rgba(221, 205, 205, 0.501);
+  margin-top: 2rem;
+  padding: 3rem;
+  background-color: #f4ecec4e;
+  border-radius: 12px;
+}
+
+form#userForm input {
+  background-color: #e7dada3f;
+  border: 1px solid rgba(53, 52, 52, 0.501);
+  border-radius: 6px;
+}
+
+form#userForm button {
+  background-color: #f3eded !important;
+  border: 1px solid rgba(53, 52, 52, 0.501);
+  border-radius: 6px;
+  color: black;
+}
+
+@media (max-width:576px) {
+  .checkoutH5 {
+    font-size: 0.6rem;
+  }
+
+}
+
+.form.border {
+  box-shadow: 4px 5px 20px 0px grey;
+}
+
+
+body {
+  background: #f5f5f5
+}
+
+.rounded {
+  border-radius: 1rem
+}
+
+.nav-pills .nav-link {
+  color: #555
+}
+
+.nav-pills .nav-link.active {
+  color: white
+}
+
+input[type="radio"] {
+  margin-right: 5px
+}
+
+.bold {
+  font-weight: bold
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover{
+  transform: translateY(-2px);
+}
+.card{
+  transition: all 0.2s ;
+}
